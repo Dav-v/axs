@@ -11,6 +11,7 @@ class FrameFunctions {
 }
 
 object FrameFunctions {
+  // TODO
   def calcGnom = (r1: Double, r2: Double, d1: Double, d2: Double) => {
     val doNotCalc = (Math.abs(r1 - r2) > 1 && Math.abs(r1 - r2 - 360) > 1) || Math.abs(d1 - d2) > 1
     if (doNotCalc) {
